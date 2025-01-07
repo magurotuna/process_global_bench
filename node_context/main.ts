@@ -1,6 +1,6 @@
 import { envLength } from "npm:@magurotuna/env-length@1.0.0";
 
-const ITERATIONS = 100_000;
+const ITERATIONS = 10_000;
 
 let sum = 0;
 
