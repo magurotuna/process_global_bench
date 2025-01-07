@@ -2,10 +2,8 @@
 
 This repository contains code to measure performance difference between the following two commits:
 
-1. https://github.com/denoland/deno/pull/27562/commits/282020a1d42d7da2afd1b1bc39aa1fe975e70a98
-2. https://github.com/denoland/deno/commit/b7fb5a5547dcc83a552d595895484c2b2dba2b95
-
-1 and 2 differ in whether `process` is made available in `deno_node` crate (1) or not (2).
+1. https://github.com/denoland/deno/commit/b7fb5a5547dcc83a552d595895484c2b2dba2b95
+2. https://github.com/denoland/deno/pull/27562/commits/282020a1d42d7da2afd1b1bc39aa1fe975e70a98
 
 # Results
 
