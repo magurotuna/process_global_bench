@@ -1,8 +1,11 @@
-export function add(a: number, b: number): number {
-  return a + b;
+import { envLength } from "npm:@magurotuna/env-length@1.0.0";
+
+const ITERATIONS = 100_000;
+
+let sum = 0;
+
+for (let i = 0; i < ITERATIONS; i++) {
+  sum += envLength();
 }
 
-// Learn more at https://docs.deno.com/runtime/manual/examples/module_metadata#concepts
-if (import.meta.main) {
-  console.log("Add 2 + 3 =", add(2, 3));
-}
+console.log(sum);
